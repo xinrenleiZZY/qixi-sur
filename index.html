@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>七夕节的爱</title>
+    <title>七夕节的爱 To.xlm</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <script>
@@ -99,7 +99,7 @@
     <!-- 顶部标题 -->
     <header class="text-center mb-8">
         <h1 class="text-[clamp(2rem,5vw,3.5rem)] font-romantic text-love-dark font-bold text-shadow">
-            七夕节快乐❤️我的爱人
+            七夕节快乐❤️我的爱
         </h1>
         <h1 class="text-[clamp(2rem,5vw,3.5rem)] font-romantic text-love-dark font-bold text-shadow">
             To 谢亮妹❤️
@@ -150,14 +150,20 @@
             <p class="text-[clamp(1.2rem,3vw,1.8rem)] font-romantic text-gray-700 leading-relaxed">
                 亲爱的，<br>
                 从遇见你的那一刻起，我的世界就变得不一样了。<br>
-                你的笑容是我每天最期待的阳光，<br>
-                你的陪伴是我最温暖的港湾。
+                你的笑是我每天最期待的阳光，<br>
+                你的陪伴是我最温暖的港湾。<br>
+                记得你总笑我煮面放太多盐，却会默默把汤喝光；<br>
+                记得加班回家，你会留着的那盏灯。<br>
+                这些细碎的瞬间，像星星一样照亮了我的生活。
             </p>
             
             <p class="text-[clamp(1.2rem,3vw,1.8rem)] font-romantic text-gray-700 leading-relaxed">
                 在这个特别的七夕节，<br>
                 我想告诉你，我爱你，<br>
-                不止今天，而是未来的每一天。
+                我想和你一起，把"以后"变成具体的日子：<br>
+                清晨一起挤牙膏，傍晚一起遛弯儿，<br>
+                冬天窝在沙发看电影，夏天踩着拖鞋吃西瓜。<br>
+                只要身边是你，平凡的日子也会发着光。
             </p>
             
             <div class="mt-8">
@@ -168,8 +174,9 @@
         <!-- 隐藏的惊喜信息 -->
         <div id="surprise-message" class="hidden mt-8 p-6 bg-pink-50 rounded-xl border border-pink-100">
             <p class="text-[clamp(1.2rem,3vw,1.6rem)] font-romantic text-love-dark text-center leading-relaxed">
-                你是我生命中最美的意外，<br>
-                是我想共度余生的那个人。<br>
+                我爱你<br>
+                不止今天，而是未来的每一天。<br>
+                你是我想共度余生的那个人。<br>
                 愿我们的爱，如银河般永恒，<br>
                 生生世世，永不分离。
             </p>
@@ -186,33 +193,70 @@
             
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                 <!-- 相册图片，点击可查看大图 -->
-                <div class="photo-item cursor-pointer rounded-lg overflow-hidden shadow-md" onclick="openPhotoModal('https://picsum.photos/seed/love1/400/300', '第一次约会')">
-                    <img src="https://picsum.photos/seed/love1/400/300" alt="第一次约会的照片" class="w-full h-40 object-cover">
+                <div class="photo-item cursor-pointer rounded-lg overflow-hidden shadow-md" onclick="openPhotoModal('images/love1.jpg', '我们相爱啦')">
+                    <img src="images/love1.jpg" alt="我们相爱啦" class="w-full h-60 object-cover">
                 </div>
-                <div class="photo-item cursor-pointer rounded-lg overflow-hidden shadow-md" onclick="openPhotoModal('https://picsum.photos/seed/love2/400/300', '一起看日落')">
-                    <img src="https://picsum.photos/seed/love2/400/300" alt="一起看日落的照片" class="w-full h-40 object-cover">
+                <div class="photo-item cursor-pointer rounded-lg overflow-hidden shadow-md" onclick="openPhotoModal('images/love2.jpg', '旅行记忆')">
+                    <img src="images/love2.jpg" alt="一起旅行的照片" class="w-full h-60 object-cover">
                 </div>
-                <div class="photo-item cursor-pointer rounded-lg overflow-hidden shadow-md" onclick="openPhotoModal('https://picsum.photos/seed/love3/400/300', '旅行记忆')">
-                    <img src="https://picsum.photos/seed/love3/400/300" alt="一起旅行的照片" class="w-full h-40 object-cover">
+                <div class="photo-item cursor-pointer rounded-lg overflow-hidden shadow-md" onclick="openPhotoModal('images/love3.jpg', '旅行记忆')">
+                    <img src="images/love3.jpg" alt="一起旅行的照片" class="w-full h-60 object-cover">
                 </div>
-                <div class="photo-item cursor-pointer rounded-lg overflow-hidden shadow-md" onclick="openPhotoModal('https://picsum.photos/seed/love4/400/300', '甜蜜瞬间')">
-                    <img src="https://picsum.photos/seed/love4/400/300" alt="甜蜜瞬间的照片" class="w-full h-40 object-cover">
+                <div class="photo-item cursor-pointer rounded-lg overflow-hidden shadow-md" onclick="openPhotoModal('images/love4.jpg', '甜蜜瞬间')">
+                    <img src="images/love4.jpg" alt="甜蜜瞬间的照片" class="w-full h-60 object-cover">
                 </div>
-                <div class="photo-item cursor-pointer rounded-lg overflow-hidden shadow-md" onclick="openPhotoModal('https://picsum.photos/seed/love5/400/300', '生日惊喜')">
-                    <img src="https://picsum.photos/seed/love5/400/300" alt="生日惊喜的照片" class="w-full h-40 object-cover">
+                <div class="photo-item cursor-pointer rounded-lg overflow-hidden shadow-md" onclick="openPhotoModal('images/love5.jpg', '甜蜜瞬间')">
+                    <img src="images/love5.jpg" alt="甜蜜瞬间的照片" class="w-full h-60 object-cover">
                 </div>
-                <div class="photo-item cursor-pointer rounded-lg overflow-hidden shadow-md" onclick="openPhotoModal('https://picsum.photos/seed/love6/400/300', '雨中漫步')">
-                    <img src="https://picsum.photos/seed/love6/400/300" alt="雨中漫步的照片" class="w-full h-40 object-cover">
+                <div class="photo-item cursor-pointer rounded-lg overflow-hidden shadow-md" onclick="openPhotoModal('images/love6.jpg', '雨中漫步')">
+                    <img src="images/love6.jpg" alt="雨中漫步的照片" class="w-full h-60 object-cover">
                 </div>
-                <div class="photo-item cursor-pointer rounded-lg overflow-hidden shadow-md" onclick="openPhotoModal('https://picsum.photos/seed/love7/400/300', '节日庆祝')">
-                    <img src="https://picsum.photos/seed/love7/400/300" alt="节日庆祝的照片" class="w-full h-40 object-cover">
+                <div class="photo-item cursor-pointer rounded-lg overflow-hidden shadow-md" onclick="openPhotoModal('images/love7.jpg', '节日庆祝')">
+                    <img src="images/love7.jpg" alt="节日庆祝的照片" class="w-full h-60 object-cover">
                 </div>
-                <div class="photo-item cursor-pointer rounded-lg overflow-hidden shadow-md" onclick="openPhotoModal('https://picsum.photos/seed/love8/400/300', '日常小确幸')">
-                    <img src="https://picsum.photos/seed/love8/400/300" alt="日常小确幸的照片" class="w-full h-40 object-cover">
+                <div class="photo-item cursor-pointer rounded-lg overflow-hidden shadow-md" onclick="openPhotoModal('images/love8.jpg', '日常小确幸')">
+                    <img src="images/love8.jpg" alt="日常小确幸的照片" class="w-full h-60 object-cover">
                 </div>
             </div>
-            
             <p class="text-center text-gray-500 text-sm mt-4">点击照片查看大图</p>
+        </div>
+        <!-- 视频回忆区域 -->
+        <div class="mt-12 pt-8 border-t border-pink-100">
+            <h2 class="text-[clamp(1.5rem,3vw,2.2rem)] font-romantic text-love-dark text-center mb-6">
+                我们的视频回忆
+            </h2>
+            
+            <div class="flex justify-center">
+                <div class="w-full max-w-2xl rounded-xl overflow-hidden shadow-lg">
+                    <video 
+                        controls 
+                        class="w-full"
+                        poster="images/love9.jpg"  <!-- 封面图（用你已有的图片） -->
+                        preload="metadata"
+                        onclick="this.play()">  <!-- 点击视频也能播放 -->
+                        <!-- 主格式：MP4 -->
+                        <source src="videos/love-video.mp4" type="video/mp4">
+                        <!-- 如果有其他格式可补充（可选） -->
+                        <source src="videos/love-video.webm" type="video/webm">
+                        <p>抱歉，你的浏览器不支持视频播放，请尝试更换浏览器或直接查看视频文件。</p>
+                    </video>
+                </div>
+                <div class="w-full max-w-2xl rounded-xl overflow-hidden shadow-lg"> 
+                    <video 
+                        controls 
+                        class="w-full"
+                        poster="images/love10.jpg"  <!-- 封面图（用你已有的图片） -->
+                        preload="metadata"
+                        onclick="this.play()">  <!-- 点击视频也能播放 -->
+                        <!-- 主格式：MP4 -->
+                        <source src="videos/love-video2.mp4" type="video/mp4">
+                        <!-- 如果有其他格式可补充（可选） -->
+                        <source src="videos/love-video2.webm" type="video/webm">
+                        <p>抱歉，你的浏览器不支持视频播放，请尝试更换浏览器或直接查看视频文件。</p>
+                    </video>
+                </div>
+            </div>
+            <p class="text-center text-gray-500 text-sm mt-3">点击播放我们的专属视频</p>
         </div>
     </main>
 
